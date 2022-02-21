@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: MinimapButtonBag 
+## Title: MinimapButtonBag-TurtleWoW
 ## Version: 0.508
 ## Author: Tunhadil, LaYt (+McPewPew)
 ## X-Website: https://github.com/McPewPew/MinimapButtonBag-TurtleWoW
