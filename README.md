@@ -6,7 +6,13 @@ Now with added [TurtleSnacks](https://github.com/McPewPew/TurtleSnacks) action, 
 
 [A minor edit of MBB, all credit to Tunhadil and [LaYt](https://github.com/laytya/MinimapButtonBag-vanilla)]
 
-# Slash Commands
+## Instructions
+1. Download **[Latest Version](https://github.com/McPewPew/MinimapButtonBag-TurtleWoW/archive/master.zip)**
+2. Unzip it into WoW\Interface\AddOns
+3. Rename "MinimapButtonBag-TurtleWoW-master" to "MinimapButtonBag-TurtleWoW"
+
+
+## Slash Commands
 
 /mbb - shows the MBB commands
 
@@ -15,7 +21,3 @@ Now with added [TurtleSnacks](https://github.com/McPewPew/TurtleSnacks) action, 
 /mbb reset position - resets the position of the MBB button
 
 /mbb reset all - resets the MBB settings
-
-# Basic install instructions
-  - Extract the archive
-  - Copy "MBB" folder into your "<WOW FOLDER>/Interface/Addons/" directory
