@@ -2,7 +2,7 @@
 
 MinimapButtonBag cleans up your Minimap and relocates the buttons in a menu bar.
 
-Now with added [TurtleSnacks](https://github.com/McPewPew/TurtleSnacks), wow!
+Now with added [TurtleSnacks](https://github.com/McPewPew/TurtleSnacks) action, wow!
 
 [A minor edit of MBB, all credit to Tunhadil and [LaYt](https://github.com/laytya/MinimapButtonBag-vanilla)]
 
