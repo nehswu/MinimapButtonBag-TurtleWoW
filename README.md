@@ -1,75 +1,10 @@
-# MinimapButtonBag vanilla
-MinimapButtonBag cleans up your Minimap and relocates the buttons in a menu bar. You can still access them through a single minimap button.  
+# MinimapButtonBag for Turtle WoW
 
-I started new trank from original addon MBB by Tunhadil for vanilla wow servers.
+MinimapButtonBag cleans up your Minimap and relocates the buttons in a menu bar.
 
-+Fixed some position bugs.
+Now with added [TurtleSnacks](https://github.com/McPewPew/TurtleSnacks), wow!
 
-+Added square map support.
-
-+Added some functionality.
-
-If you ctrl-Right click the MBB button - it will be freely moveble. One more time ctrl-Right click - will put it back to minimap.
-
-Shift-Drag to move MBB button.
-
-If you want to reattach any button to the minimap just use Ctrl + Right click on it.
-
-Use Ctrl + Right click again on the button to put it back into the bar.
-
-Or hold the Ctrl key down and move the mouse cursor over the button. A button to add or remove will appear over that button.
-
-Use Right click on the MinimapButtonBag button to open the options dialog.
-
-#Last changes
-
-v0.507
-
-+ RUru localization fixed #6 thanks @Artur91425
-+ Fixed #3 
-+ Added TimeManagerClock to ignore list
-
-v0.506
-
-+ Startup gathering  fixed
-+ Added Callbacks for unusual addon buttons
-+ More support for RecipeRadar
-+ fixed positional bugs of main button #5
-
-v0.505
-
-+ Added button's scale option
-
-v0.504
-
-+ More fix for #3
-
-v0.503a
-
-+ Fix errors DPS_mate #2
-
-v0.503
-
-+ Fix for #3
-+ Moved to folder "MBB" to easy install (need to exit WOW if you upgrading to this version)
-+ Changed from Drag to Shift-Drag to move MBB button.
-+ More compatibility w/ simpleMinimap
-+ Fix DPS_Mate errors
-
-v0.502
-
-+ Fix for WIM icon. But you need to use this version of WIM https://github.com/shirsig/WIM
-
-v0.501
-
-+ Fixed some position issues.
-+ Added square minimap support (Squeenix & simpleMiniMap)
-+ Added russian localization
-+ Multiline support
-
-# Download
-#<a href="https://github.com/laytya/MinimapButtonBag-vanilla/releases/latest">Download HERE</a>
-
+[A minor edit of MBB, all credit to Tunhadil and [LaYt](https://github.com/laytya/MinimapButtonBag-vanilla)]
 
 # Slash Commands
 
@@ -84,4 +19,3 @@ v0.501
 # Basic install instructions
   - Extract the archive
   - Copy "MBB" folder into your "<WOW FOLDER>/Interface/Addons/" directory
-  
