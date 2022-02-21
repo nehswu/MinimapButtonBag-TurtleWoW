@@ -23,6 +23,38 @@ MBB_Include = {
 	[1] = "DPSMate_MiniMap",
 };
 
+--McPewPew
+TW_Include = {
+};
+	
+isTWoW = 0
+
+if (TWMinimapShopFrame~=nil) then
+	TWMinimapShopFrame:ClearAllPoints() TWMinimapShopFrame:SetParent(Minimap) TWMinimapShopFrame:SetPoint("LEFT",Minimap,"RIGHT",-1, -1)
+	isTWoW = 1
+	table.insert(TW_Include, "Turtle WoW Shop");
+end
+if (TWMiniMapBattlefieldFrame~=nil) then
+	TWMiniMapBattlefieldFrame:ClearAllPoints() TWMiniMapBattlefieldFrame:SetParent(Minimap) TWMiniMapBattlefieldFrame:SetPoint("LEFT",Minimap,"RIGHT",-1, -1)
+	isTWoW = 1
+	table.insert(TW_Include, "Turtle WoW Battleground Finder");
+end
+if (LFT_Minimap~=nil) then
+	LFT_Minimap:ClearAllPoints() LFT_Minimap:SetParent(Minimap) LFT_Minimap:SetPoint("LEFT",Minimap,"RIGHT",-1, -1)
+	isTWoW = 1
+	table.insert(TW_Include, "LookingForTurtles");
+end
+
+if 	isTWoW == 1 then
+	for i,TWMMB in ipairs(TW_Include) do
+		DEFAULT_CHAT_FRAME:AddMessage("scruunch scruunch "..TWMMB, 1, 0, 1)
+	end
+	DEFAULT_CHAT_FRAME:AddMessage("Don't worry TurtleSnacks has fed your turtles", 1, 0, 1);
+else
+	DEFAULT_CHAT_FRAME:AddMessage("Many sad Turtle noises :(", 1, 0, 1);
+end
+--McPewPew
+
 MBB_Ignore = {
 	[1] = "MiniMapTrackingFrame",
 	[2] = "MiniMapMeetingStoneFrame",
@@ -236,6 +268,15 @@ function MBB_GatherIcons()
 					ignore = true;
 				end
 			end
+--McPewPew
+		if 	isTWoW == 1 then
+			for i,needle in ipairs(MBB_Ignore) do
+				if( string.find(child:GetName(), "TWMiniMapBattlefieldFrame") ) then
+					ignore = false;
+				end
+			end
+		end
+--McPewPew
 			if( not ignore ) then
 				if( not child:HasScript("OnClick") ) then
 					for _,subchild in ipairs({child:GetChildren()}) do
