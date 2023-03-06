@@ -75,7 +75,9 @@ MBB_Ignore = {
 	[17] = "MetaMap",
 	[18] = "LootLinkMinimapButton",
 	[19] = "TimeManagerClockButton",
-	[20] = "pfMiniMapPin"
+	[20] = "pfMiniMapPin",
+	[21] = "Clock",
+	[22] = "Timer"
 };
 
 MBB_IgnoreSize = {
