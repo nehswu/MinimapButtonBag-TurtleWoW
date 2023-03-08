@@ -9,6 +9,6 @@ Now with added [TurtleSnacks](https://github.com/McPewPew/TurtleSnacks) action, 
 [A minor edit of MBB, all credit to Tunhadil and [LaYt](https://github.com/laytya/MinimapButtonBag-vanilla)]
 
 ## Instructions
-1. Download **[Latest Version](https://github.com/McPewPew/MinimapButtonBag-TurtleWoW/archive/refs/heads/master.zip)**
-2. Unzip it into WoW\Interface\AddOns
-3. Rename "MinimapButtonBag-TurtleWoW-master" to "MinimapButtonBag-TurtleWoW"
+*  Download **[Latest Version](https://github.com/McPewPew/MinimapButtonBag-TurtleWoW/archive/refs/heads/master.zip)**
+*  Unzip it into WoW\Interface\AddOns
+*  Rename "MinimapButtonBag-TurtleWoW-master" to "MinimapButtonBag-TurtleWoW"
