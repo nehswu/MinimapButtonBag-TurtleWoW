@@ -129,7 +129,7 @@ MBB_CallBack = {
 
 
 _rescanned = false;
-_starttime = GetTime();
+_starttime = 0;
 
 function MBB_OnLoad()
 	this:RegisterEvent("VARIABLES_LOADED");
